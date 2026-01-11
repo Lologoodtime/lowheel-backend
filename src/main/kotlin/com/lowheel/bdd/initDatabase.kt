@@ -5,7 +5,7 @@ import org.jetbrains.exposed.sql.SchemaUtils
 import org.jetbrains.exposed.sql.transactions.transaction
 
 fun initDatabase() {
-    val host = "localhost"
+    val host = "db"
     val port = 5432
     val dbName = "lol_reviews"
     val user = "postgres"
